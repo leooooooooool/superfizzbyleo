@@ -73,6 +73,8 @@ bot.on("message", function(message) {
 bot.on('guildMemberAdd', member => {
     member.guild.channels.find("name", "bienvenue-aurevoir").send(`Bienvenue ${member}`)
     console.log('User' + member.username + ' has joined server')
+    var role = member.guild.roles.find('name', 'Mємвяє');
+    member.addRole(role)
     
 });
 
