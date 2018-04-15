@@ -35,6 +35,8 @@ bot.on("message", function(message) {
         case "clear":
             message.channel.send("\n\n\n\n\n\nChannel cleared!")
             break;
+        case "askteemo":
+            break;
         default:
             message.channel.send("commence pas a begueyer toi");
     }
