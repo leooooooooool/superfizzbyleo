@@ -3,12 +3,6 @@ const bot = new Discord.Client();
 
 const PREFIX = "!";
 
-var fortunes = [
-    "Oé de ouf",
-    "t ouf toi",
-    "ntm",
-    "Bah jsp mwa"
-];
 
 bot.on('ready', function() {
     bot.user.setActivity('Wesh')
