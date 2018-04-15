@@ -17,29 +17,7 @@ bot.on('ready', function() {
 });
 
 
-bot.on('message', message => {
-        if (message.content === "bonjour") {
-            message.channel.send('wesh ');
-        }
-        else if (message.content === "salut") {
-            message.channel.send('wesh ');
-        }
-        else if (message.content === "slt") {
-            message.channel.send('wesh ');
-        }
-        else if (message.content === "cc") {
-            message.channel.send('wesh ');
-        }
-        else if (message.content === "coucou") {
-            message.channel.send('wesh ');
-        }
-        else if (message.content === "yo") {
-            message.channel.send('wesh ');
-        }
-        else if (message.content === "bjr") {
-            message.channel.send('wesh ');
-        }
-});
+
 
 
 bot.on("message", function(message) {
